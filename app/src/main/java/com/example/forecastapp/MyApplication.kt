@@ -1,8 +1,8 @@
-package com.example.forecastapp.utils
+package com.example.forecastapp
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
 
 
 @HiltAndroidApp
-class MyApplication: Application()
+class MyApplication:Application()
