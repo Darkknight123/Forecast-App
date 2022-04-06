@@ -22,7 +22,11 @@ class MainActivity : AppCompatActivity() {
 
             binding.apply {
 
+                tvCity.text ="Nairobi"
                 tvTemperature.text = weather.temperature
+                tvDescription.text = weather.description
+                tvWindSpeed.text = weather.wind
+
             }
         }
 
